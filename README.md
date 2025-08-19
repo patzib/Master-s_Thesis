@@ -48,7 +48,7 @@ Prerequisites
 
     The required Ollama models pulled. You can get them by running:
 
-    ollama pull gemma3:4b
+    Example: ollama pull gemma3:4b
 
 Installation Steps
 
@@ -60,11 +60,10 @@ Installation Steps
     Create a Virtual Environment (Recommended):
 
     python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate.bat`
 
     Install Dependencies:
-    Create a requirements.txt file by running pip freeze > requirements.txt in your working environment. Then, another user can install the exact dependencies using:
-
+    
     pip install -r requirements.txt
 
     Set Up Folder Structure:
