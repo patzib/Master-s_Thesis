@@ -23,7 +23,7 @@ The system is composed of several modular Python scripts that handle distinct st
 The data flows as follows:
 Raw Documents -> pre-processing.py -> JSON Chunks -> rag_setup.py -> Chroma Vector DB -> app.py -> User Interface
 
-##3. Features
+## 3. Features
 
     End-to-End RAG Pipeline: Implements the full RAG lifecycle from document ingestion to conversational response generation.
 
@@ -37,7 +37,7 @@ Raw Documents -> pre-processing.py -> JSON Chunks -> rag_setup.py -> Chroma Vect
 
     Interactive UI: Provides a user-friendly chat interface powered by Streamlit, complete with source document display.
 
-##4. Setup and Installation
+## 4. Setup and Installation
 
 Follow these steps to set up and run the project locally.
 Prerequisites
@@ -74,7 +74,7 @@ Installation Steps
 
     Place all your source documents (PDFs, TXTs) into the data/raw_documents folder.
 
-##5. Usage
+## 5. Usage
 
 Once the setup is complete, you can run the Streamlit application:
 
@@ -82,7 +82,7 @@ streamlit run app.py
 
 The application will open in your web browser. The first time you run it, the system will perform the initial pre-processing and database indexing, which may take a few minutes depending on the number of documents. Subsequent startups will be much faster as the indexed data is persisted.
 
-##6. Configuration
+## 6. Configuration
 
 All key parameters of the system can be modified in the config.py file. This allows for easy experimentation with different models, chunking strategies, and retrieval settings.
 
