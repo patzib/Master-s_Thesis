@@ -54,16 +54,19 @@ Installation Steps
 
     Clone the Repository:
 
-    git clone <your-repository-url>
+    git clone https://github.com/patzib/Master-s_Thesis
     cd <your-repository-name>
 
     Create a Virtual Environment (Recommended):
-
-    python -m venv venv
+    python -m venv venv # If that does not work: py -3 -m venv venv
+    
+    Activate Virtual Environment;
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate.bat`
 
+    Navigate to the MLME_chatbot folder
+    # Or wherever the requirements.txt is saved
+
     Install Dependencies:
-    
     pip install -r requirements.txt
 
     Set Up Folder Structure:
