@@ -68,10 +68,8 @@ Installation Steps
 
     Delete the placeholder in the data/raw_documents and place all your source documents (PDFs, TXTs) into that folder.
 
-    If you also want to run the evaluation scripts, you also need to further install jupyter notebook (or jupyter lab):
-    pip install notebook
-    or:
-    pip install jupyterlab
+    If you also want to run the evaluation scripts, you also need install more packages. These are provided in the requirements_eval.txt:
+    pip install -r requirements_eval.txt
     
 
 ## 5. Usage
