@@ -68,6 +68,12 @@ Installation Steps
 
     Delete the placeholder in the data/raw_documents and place all your source documents (PDFs, TXTs) into that folder.
 
+    If you also want to run the evaluation scripts, you also need to further install jupyter notebook (or jupyter lab):
+    pip install notebook
+    or:
+    pip install jupyterlab
+    
+
 ## 5. Usage
 
 Once the setup is complete, navigate to the "code" folder and run the Streamlit application:
