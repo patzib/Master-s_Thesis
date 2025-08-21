@@ -63,23 +63,16 @@ Installation Steps
     Activate Virtual Environment;
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate.bat`
 
-    Navigate to the MLME_chatbot folder
-    # Or wherever the requirements.txt is saved
-
     Install Dependencies:
     pip install -r requirements.txt
 
-    Set Up Folder Structure:
-    Create the necessary data directory in the project's root folder:
-
-    mkdir -p data/raw_documents
-
-    Place all your source documents (PDFs, TXTs) into the data/raw_documents folder.
+    Delete the placeholder in the data/raw_documents and place all your source documents (PDFs, TXTs) into that folder.
 
 ## 5. Usage
 
-Once the setup is complete, you can run the Streamlit application:
+Once the setup is complete, navigate to the "code" folder and run the Streamlit application:
 
+cd code
 streamlit run app.py
 
 The application will open in your web browser. The first time you run it, the system will perform the initial pre-processing and database indexing, which may take a few minutes depending on the number of documents. Subsequent startups will be much faster as the indexed data is persisted.
