@@ -5,3 +5,5 @@ langchain_ollama==0.3.6
 ollama==0.5.3
 streamlit==1.45.1
 sentence-transformers
+chromadb
+pypdf
