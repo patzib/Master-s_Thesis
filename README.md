@@ -55,7 +55,7 @@ Installation Steps
     Clone the Repository:
 
     git clone https://github.com/patzib/Master-s_Thesis
-    cd <your-repository-name>
+    cd Master-s_Thesis
 
     Create a Virtual Environment (Recommended):
     python -m venv venv # If that does not work: py -3 -m venv venv
