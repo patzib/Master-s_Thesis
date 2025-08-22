@@ -1,9 +1,20 @@
+# Core LangChain Libraries (updated versions)
 langchain==0.3.27
-langchain_community==0.3.27
-langchain_core==0.3.74
-langchain_ollama==0.3.6
-ollama==0.5.3
+langchain-community==0.3.27
+langchain-core==0.3.74
+langsmith==0.4.16
+
+# New LangChain Integration Libraries
+langchain-huggingface==0.3.1
+langchain-chroma==0.2.5
+langchain-huggingface==0.3.1
+langchain-ollama==0.3.3
+
+# Other Dependencies
+ollama==0.4.8
 streamlit==1.45.1
-sentence-transformers
-chromadb
-pypdf
+sentence-transformers==2.7.0
+chromadb==1.0.10
+pypdf==5.5.0
+
+
