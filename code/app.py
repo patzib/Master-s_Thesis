@@ -8,21 +8,13 @@ import os
 from collections import defaultdict
 
 # --- Third-Party Library Imports ---
-# Streamlit is used for creating the web-based user interface for the chatbot.
 import streamlit as st
-# LangChain core message types are used for managing conversation history.
 from langchain_core.messages import HumanMessage
 
-# --- Local Application Imports (from the new 'core' package) ---
-# `setup_chatbot` is the main function from our unified RAG pipeline script.
-# It now accepts a configuration object to build the system.
+# --- Local Application Imports  ---
+
 from core.rag_setup import setup_chatbot
-
-# `config` is imported from the core package to provide the default settings
-# for the main application.
 from core import config as app_config
-
-# `rag_utils` contains helper functions, such as the one for dynamic query analysis.
 from core.rag_utils import get_lecture_filter_from_query
 
 # ==================================================================================================
@@ -63,7 +55,7 @@ def query_with_memory(chain, question: str, vector_db):
                 search_kwargs={"k": app_config.INITIAL_RETRIEVAL_K, "filter": {"lecture_number": lecture_filter}}
             )
 
-        # Temporarily override the chain's retriever with our dynamically configured one.
+        # Temporarily override the chain's retriever with the dynamically configured one.
         # This change only lasts for the duration of this single call.
         chain.retriever = retriever
 
@@ -86,40 +78,44 @@ def main():
     st.title("MLME Chatbot")
     st.markdown("Ask questions about the course 'Machine Learning for Management Decisions'!")
 
-    # Initialize session state variables if they don't exist.
+    # --- Automatic RAG System Initialization ---
+    # This block runs ONCE per session. If the 'chain' is not in the session state,
+    # it initializes the entire RAG pipeline and stores the components.
     if 'chain' not in st.session_state:
         st.session_state.chain = None
         st.session_state.memory = None
         st.session_state.messages = []
         st.session_state.vector_db = None
+        
+        with st.status("Initializing RAG system... This may take a moment.", expanded=True) as status:
+            try:
+                st.write("⚙️ Running pre-processing and setup...")
+                # The setup_chatbot function is called with the default app configuration.
+                chain, memory, vector_db = setup_chatbot(app_config)
+                
+                # Store the initialized components in the session state.
+                st.session_state.chain = chain
+                st.session_state.memory = memory
+                st.session_state.vector_db = vector_db
+                
+                status.update(label="Initialization Complete!", state="complete", expanded=False)
+            except Exception as e:
+                status.update(label="Initialization Failed!", state="error", expanded=True)
+                st.error(f"A critical error occurred during initialization: {e}")
+                # Stop the app if initialization fails, as the chatbot cannot function.
+                st.stop()
 
     # --- Sidebar UI ---
     with st.sidebar:
         st.header("Controls & Info")
         
-        # The main button to initialize the entire RAG backend.
-        if st.button("Initialize RAG System", type="primary", use_container_width=True):
-            with st.status("Initializing RAG system...", expanded=True) as status:
-                st.write("⚙️ Running pre-processing and setup...")
-                try:
-                    # **KEY CHANGE**: The setup_chatbot function is now called with the
-                    # default application configuration object imported from the core package.
-                    st.session_state.chain, st.session_state.memory, st.session_state.vector_db = setup_chatbot(app_config)
-                    
-                    status.update(label="Initialization Complete!", state="complete", expanded=False)
-                    st.success("System Initialized!")
-                    st.rerun()
-                except Exception as e:
-                    status.update(label="Initialization Failed!", state="error", expanded=True)
-                    st.error(f"Initialization failed: {e}")
-
-        if st.session_state.chain:
-            if st.button("🗑️ Clear Chat Memory", use_container_width=True):
-                if st.session_state.memory:
-                    st.session_state.memory.clear()
-                st.session_state.messages = []
-                st.success("Memory cleared!")
-                st.rerun()
+        # The "Clear Chat Memory" button is available once the system is running.
+        if st.button("🗑️ Clear Chat Memory", use_container_width=True):
+            if st.session_state.memory:
+                st.session_state.memory.clear()
+            st.session_state.messages = []
+            st.success("Memory cleared!")
+            st.rerun()
 
         st.divider()
 
@@ -143,74 +139,72 @@ def main():
             st.markdown(f"**Doc Folder:** `{app_config.RAW_DOC_FOLDER}`")
 
     # --- Main Chat Interface ---
-    if st.session_state.chain is None:
-        st.info("Please initialize the RAG system using the button in the sidebar.")
-    else:
-        st.success("The chatbot is ready! Ask your question below.")
+    # This section now runs after the automatic initialization is successful.
+    st.success("The chatbot is ready! Ask your question below.")
 
-        # Display the existing chat messages from the session history.
-        for message in st.session_state.messages:
-            with st.chat_message(message["role"]):
-                st.markdown(message["content"])
-                # If the message is from the assistant and has sources, display them in an expander.
-                if message["role"] == "assistant" and message.get("sources"):
-                    grouped_sources = defaultdict(list)
-                    for source in message["sources"]:
-                        doc_name = os.path.basename(source.metadata.get('source', 'N/A'))
-                        grouped_sources[doc_name].append(source.page_content)
+    # Display the existing chat messages from the session history.
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+            # If the message is from the assistant and has sources, display them.
+            if message["role"] == "assistant" and message.get("sources"):
+                grouped_sources = defaultdict(list)
+                for source in message["sources"]:
+                    doc_name = os.path.basename(source.metadata.get('source', 'N/A'))
+                    grouped_sources[doc_name].append(source.page_content)
 
-                    if grouped_sources:
-                        st.markdown("---")
-                        st.subheader("Sources:")
-                        for doc_name, contents in grouped_sources.items():
-                            with st.expander(f"📚 {doc_name}"):
-                                for content_item in contents:
-                                    st.info(f"{content_item.strip()}")
+                if grouped_sources:
+                    st.markdown("---")
+                    st.subheader("Sources:")
+                    for doc_name, contents in grouped_sources.items():
+                        with st.expander(f"📚 {doc_name}"):
+                            for content_item in contents:
+                                st.info(f"{content_item.strip()}")
 
-        # Get the user's new input from the chat input box.
-        prompt = st.chat_input("Ask your question here...")
-        if prompt:
-            # Add the user's message to the history and display it.
-            st.session_state.messages.append({"role": "user", "content": prompt})
-            with st.chat_message("user"):
-                st.markdown(prompt)
-            
-            # Generate and display the assistant's response.
-            with st.chat_message("assistant"):
-                with st.status("Thinking...", expanded=True):
-                    st.write("Retrieving relevant documents...")
-                    answer, sources = query_with_memory(
-                        st.session_state.chain, 
-                        prompt, 
-                        st.session_state.vector_db
-                    )
-                    st.write("Generating final answer...")
+    # Get the user's new input from the chat input box.
+    prompt = st.chat_input("Ask your question here...")
+    if prompt:
+        # Add the user's message to the history and display it.
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        
+        # Generate and display the assistant's response.
+        with st.chat_message("assistant"):
+            with st.status("Thinking...", expanded=True):
+                st.write("Retrieving relevant documents...")
+                answer, sources = query_with_memory(
+                    st.session_state.chain, 
+                    prompt, 
+                    st.session_state.vector_db
+                )
+                st.write("Generating final answer...")
 
-                st.markdown(answer)
+            st.markdown(answer)
 
-                # Display the sources used for this specific answer.
-                if sources:
-                    grouped_sources = defaultdict(list)
-                    for source in sources:
-                        doc_name = os.path.basename(source.metadata.get('source', 'N/A'))
-                        grouped_sources[doc_name].append(source.page_content)
+            # Display the sources used for this specific answer.
+            if sources:
+                grouped_sources = defaultdict(list)
+                for source in sources:
+                    doc_name = os.path.basename(source.metadata.get('source', 'N/A'))
+                    grouped_sources[doc_name].append(source.page_content)
 
-                    if grouped_sources:
-                        st.markdown("---")
-                        st.subheader("Sources used for this answer:")
-                        for doc_name, contents in grouped_sources.items():
-                            with st.expander(f"📚 {doc_name}"):
-                                for content_item in contents:
-                                    st.info(f"{content_item.strip()}")
+                if grouped_sources:
+                    st.markdown("---")
+                    st.subheader("Sources used for this answer:")
+                    for doc_name, contents in grouped_sources.items():
+                        with st.expander(f"📚 {doc_name}"):
+                            for content_item in contents:
+                                st.info(f"{content_item.strip()}")
 
-            # Add the assistant's full response (answer and sources) to the message history.
-            st.session_state.messages.append({
-                "role": "assistant",
-                "content": answer,
-                "sources": sources
-            })
-            # Rerun the script to update the chat display with the new messages.
-            st.rerun()
+        # Add the assistant's full response (answer and sources) to the message history.
+        st.session_state.messages.append({
+            "role": "assistant",
+            "content": answer,
+            "sources": sources
+        })
+        # Rerun the script to update the chat display with the new messages.
+        st.rerun()
 
 # ==================================================================================================
 # --- 3. Application Entry Point ---
