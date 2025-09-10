@@ -76,8 +76,8 @@ Installation Steps
 
 Once the setup is complete, navigate to the "code" folder and run the Streamlit application:
 
-cd code
-streamlit run app.py
+    cd code
+    streamlit run app.py
 
 The application will open in your web browser. The first time you run it, the system will perform the initial pre-processing and database indexing, which may take a few minutes depending on the number of documents. Subsequent startups will be faster as the indexed data is persisted.
 
@@ -97,10 +97,12 @@ By tuning these parameters, you can analyze their effect on the performance and 
 ## 7. Running the Evaluations
 
 First, the necessary packages for running the evaluations need to be installed:
-pip install -r requirements_eval.txt
+
+    pip install -r requirements_eval.txt
 
 When the installations have finished, the notebooks for evaluating the RAG system can be run with jupyter notebook. For starting jupyter notebook, type:
-jupyter notebook
+
+    jupyter notebook
 
 Then, navigate to the code/evaluation folder.
 
