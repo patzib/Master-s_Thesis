@@ -53,8 +53,9 @@ Prerequisites
 Installation Steps
 
     Clone the Repository:
-
     git clone https://github.com/patzib/Master-s_Thesis
+
+    Navigate to the "Master-s_Thesis" folder
     cd Master-s_Thesis
 
     Create a Virtual Environment (Recommended):
@@ -66,10 +67,9 @@ Installation Steps
     Install Dependencies:
     pip install -r requirements.txt
 
-    Delete the placeholder in the data/raw_documents and place all your source documents (PDFs, TXTs) into that folder.
+    Delete the placeholder in the data/raw_documents and place all your source documents (only PDF and TXT files) into that folder.
 
-    If you also want to run the evaluation scripts, you also need install more packages. These are provided in the requirements_eval.txt:
-    pip install -r requirements_eval.txt
+
     
 
 ## 5. Usage
@@ -79,7 +79,7 @@ Once the setup is complete, navigate to the "code" folder and run the Streamlit 
 cd code
 streamlit run app.py
 
-The application will open in your web browser. The first time you run it, the system will perform the initial pre-processing and database indexing, which may take a few minutes depending on the number of documents. Subsequent startups will be much faster as the indexed data is persisted.
+The application will open in your web browser. The first time you run it, the system will perform the initial pre-processing and database indexing, which may take a few minutes depending on the number of documents. Subsequent startups will be faster as the indexed data is persisted.
 
 ## 6. Configuration
 
@@ -92,3 +92,12 @@ All key parameters of the system can be modified in the config.py file. This all
     RAG Parameters: CHUNK_SIZE, OVERLAP_SIZE, INITIAL_RETRIEVAL_K, TOP_N_RERANKED
 
 By tuning these parameters, you can analyze their effect on the performance and accuracy of the RAG system.
+
+
+## 7. Running the Evaluations
+
+First, the necessary packages for running the evaluations need to be installed:
+
+pip install -r requirements_eval.txt
+
+
