@@ -96,7 +96,9 @@ By tuning these parameters, you can analyze their effect on the performance and 
 
 ## 7. Running the Evaluations
 
-First, the necessary packages for running the evaluations need to be installed:
+Before running the evaluations, it is recommended to run and initialize the chatbot once before starting directly with the evaluations (streamlit run app.py). That way, the pre-processing of the files has already been done.
+
+To start the evaluations, install the necessary packages:
 
     pip install -r requirements_eval.txt
 
@@ -104,11 +106,11 @@ When the installations have finished, the notebooks for evaluating the RAG syste
 
     jupyter notebook
 
+If you would like to configue the chatbot with certain settings, then you need to go first to the config.py file in the core folder. There parameters like the temperature or the System Prompt can be adjusted.
+
 Then, navigate to the code/evaluation folder.
 
 ### 7.1 Evaluating the RAG chatbot on synthetically created and manually curated Question-Answer Pairs.
-
-The first step would be to configure the chatbot as you would like. The settings of the custom created chatbot need to be configured in the config.py file. 
 
 The next step would be to run the q_a_generator.ipynb notebook, prompt an LLM of your choice for question-answer pairs for the relevant academic papers and then manually bringing them together, forming the ground_truth_dataset.csv, with which the model is then later tested.
 
