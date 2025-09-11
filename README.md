@@ -119,7 +119,7 @@ Then, run the rag_eval.ipynb script for generating the answers of the chatbot to
 After that, take an LLM of your choice, give it the created csv from the step before (rag_evaluation_generated_answers.csv) and use the prompts which you find in the Appendix of the Thesis to evaluate the Chatbot on the metrics of Faithfulness, Context Relevance and Correctness.
 There are three test json files for this in the evaluation_data folder which were created with the following settings of the chatbot: Temperature = 0.1 and Language = Only English.
 
-The answers can then be copied into three distinct json files (faithfulness.json, correctness.json, relevance.json). Using the script convert_json_to_csv.ipynb then converts all three json files into one single csv file, containing all the information of the evaluation (consolidated_evaluation_results_custom_dataset_{model_version}.csv).
+The answers can then be copied into three distinct json files (faithfulness.json, correctness.json, relevance.json). Using the script convert_json_to_csv.ipynb then converts all three json files into one single csv file, containing all the information of the evaluation of this one model version (consolidated_evaluation_results_custom_dataset_{model_version}.csv).
 
 
 ### 7.2 Evaluating the RAG chatbot on established benchmarks
