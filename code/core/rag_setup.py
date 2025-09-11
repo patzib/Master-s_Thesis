@@ -132,9 +132,14 @@ def init_ollama_model(cfg):
         
         # Extract model names.
         model_names = []
-        for model in available_models.get('models', []):
-            if 'name' in model:
-                model_names.append(model['name'])
+        # The 'models' key contains a list of dictionaries.
+        for model_dict in available_models.get('models', []):
+            if 'model' in model_dict:
+                # Get the full name (e.g., "MLME_Chatbot_v4:latest")
+                full_name = model_dict['model']
+                # Split at the colon to get the base name
+                base_name = full_name.split(':')[0]
+                model_names.append(base_name)
 
         # Check if the desired custom model already exists.
         if cfg.MODEL_NAME not in model_names:
