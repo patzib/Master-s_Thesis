@@ -26,7 +26,7 @@ EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 RERANKER_MODEL = "mixedbread-ai/mxbai-rerank-xsmall-v1"
 OLLAMA_BASE_MODEL = "gemma3:4b"
 OLLAMA_METADATA_MODEL = "gemma3:4b"
-VECTOR_STORE_NAME = "rag_store_MLME_chunk_dif"
+VECTOR_STORE_NAME = "rag_store"
 
 # --- LLM Behavior Configuration ---
 SYSTEM_PROMPT = """You are a helpful university chatbot for the course 'Machine Learning for Management Decisions'
