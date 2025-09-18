@@ -1,0 +1,442 @@
+[
+  {
+    "score": 0.0,
+    "reasoning": "The context is entirely irrelevant. It discusses general concepts of machine learning and a specific model for technology adoption but makes no mention of the 'Centaur foundation model' or the 'Psych-101 dataset.'"
+  },
+  {
+    "score": 0.3,
+    "reasoning": "The context discusses the performance of a model by 'Venkatesh and colleagues' (which the generated answer mistakes for the 'Centaur model'), stating it explains 70% of variation in technology use[cite: 28]. This is tangentially related to the query's subject of model performance. However, the context completely fails to provide the crucial information requested: a comparison to *other existing cognitive models*."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It does not mention the 'Centaur foundation model.' Instead, it discusses a 'perceptron' model [cite: 41] and a simulation of an investment game[cite: 44], which are completely different topics from what is asked in the question."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is entirely irrelevant as it does not mention the 'Centaur model' or any specific dataset for fine-tuning. It discusses general data preparation challenges in machine learning[cite: 61, 62, 68], which is not what the question is about."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A slide image explicitly states 'A mathematical model of a brain cell: perceptron'[cite: 78], which provides the name of the computational model discussed."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly addresses the question by explaining statistical discrimination theory. It states that discriminatory outcomes can be considered 'efﬁcient under imperfect information and aligns with the employer’s proﬁt maximization goal'[cite: 99], directly implying that optimizing for cost-effectiveness or profit can lead to such outcomes."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The retrieved context consists only of a list of bibliographic references. While it correctly cites the paper by Lambrecht & Tucker (2019) relevant to the question[cite: 112, 130], it provides no information, abstract, or text from the paper itself. Therefore, it is impossible to answer the question based on this context."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is a disjointed collection of sources. While it references the relevant Lambrecht & Tucker paper[cite: 139], it doesn't provide any content from it. The other pieces of context, discussing gender bias in Google image searches [cite: 159, 160] and customer demographics in e-commerce[cite: 150, 151], are completely unrelated to the specific STEM ad study in question."
+  },
+  {
+    "score": 0.8,
+    "reasoning": "The context is highly relevant. It repeatedly cites the correct paper on algorithmic bias in STEM ad display[cite: 180, 182]. More importantly, it includes a conclusion stating that 'Recruitment algorithms ’bias is evident in gender...'[cite: 197]. While it doesn't give the specific finding that 'fewer women saw the ad,' it directly confirms the core empirical result of gender-based bias, which is the essence of the question."
+  },
+  {
+    "score": 0.2,
+    "reasoning": "The context is only slightly relevant. It provides the title of the correct paper, which is 'an empirical study of apparent gender-based discrimination in the display of stem career ads'[cite: 208, 210]. This title hints at the *purpose of the research*, but it does not state the *explicit intention for the ad's delivery* itself (i.e., whether the advertiser intended it to be neutral). The rest of the context is from a different paper on AI recruitment[cite: 219]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly and explicitly answers the question. It contains the sentence: 'Theoretically, our findings underscore the sociotechnological nature of algorithmic discrimination'[cite: 238]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that the paper uses 'comprehensive simulations... in a setting that mirrors sequential interactions, such as loan approval decisions'[cite: 247]. It also specifies the simulations were built on data from an 'incentivized investment game'[cite: 259, 261]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question by stating, 'Our findings indicate that continuous updating can help mitigat e algorithmic discrimination and enhance economic efficiency over time'[cite: 270]. It also includes the important nuance that humans in the loop can impede this process[cite: 271]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly explains the mechanism. It states that feedback loops 'arise when the outcomes of algorithmic decisions provide new endogenous training data for subsequent model updates'[cite: 287]. It further clarifies that this happens when ML predictions 'endogenously shape the composition of additional data available for model updating'[cite: 284]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context explicitly answers the question. It states that 'the greater the extent of human discrimination... the less likely it is that self-correcting mechanisms will occur ' [cite: 303] and that 'unbiased models learn biased behaviors from humans over time'[cite: 304]."
+  },
+  {
+    "score": 0.8,
+    "reasoning": "The context is highly relevant but does not provide a complete answer. It explains that historical data can 'amplify future hiring inequalities' [cite: 335] and that data collection can prefer '\"main-stream” organizations unequally dispersed by race and gender'[cite: 333]. This strongly implies that opacity is a problem for detecting bias but doesn't state it directly in relation to HR teams."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It explicitly states that some studies found AI-supported recruitment 'can reduce costs' [cite: 345] and other studies 'suggest it saves time'[cite: 347]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It recommends implementing 'technical measures, such as unbiased dataset frameworks and improved algorithmic transparency, as well as management measures like internal corporate ethical governance and external oversight'[cite: 367]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question by stating that 'algorithmic bias results in discriminatory hiring practices based on gender, race, color, and personality traits'[cite: 385]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that 'algorithmic bias stems from limited raw data sets and biased algorithm designers'[cite: 410]."
+  },
+  {
+    "score": 0.5,
+    "reasoning": "The context provides a partial answer. It states the User Guide gives 'more detailed tips and hints' [cite: 443] and the Reference Model describes 'what to do'[cite: 443], but the more helpful detail from the generated answer ('how to do a data mining project' vs 'what to do') is inferred rather than explicitly stated."
+  },
+  {
+    "score": 0.9,
+    "reasoning": "The context is highly relevant and nearly provides a direct answer. A slide lists 'Prepare data' as having the characteristic 'Most tedious part of the work (approx. 60-80% of time)' and lists 'Selection, integration, transformation, cleaning of data' as sub-tasks[cite: 439]. While it doesn't single out 'Clean data' as the lengthiest, it strongly implies the entire preparation phase, which includes cleaning, is the most time-consuming."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that the aim of the project was to 'specify a process w hich can be reliably and efficiently repeated by different people and adapted to different situations'[cite: 448]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A slide is titled 'Structuring an AI project: CRISP-DM' and includes the text 'Cross Industry Standard Process for Data Mining'[cite: 457]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A diagram clearly lists the six phases in order: 'Business Understanding', 'Data Understanding', 'Data Preparation', 'Modeling', 'Evaluation', and 'Deployment'[cite: 462]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context provides all the necessary information to answer the question. It mentions that the technology can be applied in 'verschiedenen Sektoren' (pervasive) [cite: 467], that it gets better utilized over time ('über die Zeit immer besser genutzt wurden') [cite: 473], and that it leads to 'weiteren komplementären Innovationen' (complementary innovation)[cite: 474]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It describes the J-Curve phenomenon [cite: 489], ROC analysis[cite: 494], and general machine learning concepts but contains no specific data or figures about Total Factor Productivity (TFP) from the year 2017."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context does not contain the answer. It describes a 'J-curve' phenomenon where productivity initially dips with new technology [cite: 495, 496] but makes no mention of Robert Solow or his specific productivity paradox statement."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly provides examples of complementary investments. It lists 'New inputs: sensors, connected devices, synthetic data' and 'New “orgware”: data pipelines, ML-ops, AI-first processes'[cite: 521]. It also mentions the need to 'adaptieren' (adapt) organizations, similar to how factories were redesigned for electricity[cite: 526]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly defines the Productivity J-Curve. It describes it as a 'two-phase productivity pattern' with a 'Short-run dip' followed by a 'Long-run rebound'[cite: 536]. It also explains that the dip is due to upfront investments in 'unmeasured intangible capital' like data, skills, and process redesign[cite: 536]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question, stating, 'From a societal per - spective, based on U.S. figures from 2022, the 2.6% return decrease would result in a reduction of 624,000 metric tons of CO2 emissions'[cite: 553]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states: 'For our industry partner, the observed effect translates into an estimated annual reduction in processing costs of about $340,000'[cite: 569]."
+  },
+  {
+    "score": 0.8,
+    "reasoning": "The context strongly implies the answer. It states that '73,235 made a purchase' across the three experimental groups[cite: 600]. The question asks for the sample size 'n' of the *experiment*, which is different from the number of purchasers. A different part of the document abstract mentions 'n = 117,304'[cite: 611], which is the correct total sample size. The retrieved context is slightly confusing by focusing only on purchasers."
+  },
+  {
+    "score": 0.5,
+    "reasoning": "The context is partially relevant. It discusses 'opportunistic return behaviors' like 'bracketing' [cite: 615] and returns due to discrepancies between expectations and reality[cite: 621]. These align with the concepts of 'opportunistic' and 'real' returns, but the context doesn't use these exact terms, requiring inference."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question, stating, 'When compared against no nudging, the reduc - tion is 5.19%'[cite: 640]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states, 'In our case, SHAP values indicate that the initial cart value is the variable most pivotal for the prediction'[cite: 654]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context provides a direct answer, stating, 'Notably, the academic team members initially aimed to isolate the effects of the cart prompt and the reminder prompt, seeking to pinpoint their causal effects'[cite: 672]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that for the industry partner, the effect 'translates into an estimated annual reduction in processing costs of about $340,000'[cite: 694]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context provides a direct answer. It includes a line that says, 'INFORMS is located in Maryland, USA'[cite: 710]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context provides a direct answer. It states, 'Mithilfe der Programmiersprache Python werden die Teilnehmer Schritt für Schritt an die Umsetzung von ML-Projekten herangeführt' (With the help of the programming language Python, participants will be guided step-by-step through the implementation of ML projects)[cite: 715]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly lists the four applications mentioned in the answer: 'Synthesizing information', 'Argumentative sparring partner', 'Brainstorming', and 'Code documentation or transformation'[cite: 725]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A slide has a section titled 'Basic chat model' with the instruction: 'Choose when task is rather low stake and fast response is required'[cite: 740]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A list in the document under a section about a human cognitive process states, 'Munich: 1,578,567'[cite: 745]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A slide detailing the 'Evolution of OpenAI’s GPT models' has a line item that reads 'GPT-2: 1.5B parameters'[cite: 754]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant and does not contain information about how an 'attention head' works. It discusses concepts like mediation and moderation in technology adoption models [cite: 772, 774] and human interaction with systems like ChatGPT[cite: 781], but it lacks any technical explanation of the attention mechanism."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly defines Word2Vec and its function. It states that Word2Vec is a 'simple neural network to generate word embeddings given a text corpus' [cite: 803] and that its purpose is to create a 'fixed dictionary of vectors for words' [cite: 803] where words in similar contexts have similar embeddings."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. In a slide discussing representing words as indexed tokens, a bullet point asks 'What is a potential problem here?' followed by the answer 'Lacking interpretability of distance'[cite: 805]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A slide titled 'Gradient descent: the intuition' explicitly lists two steps: 'To decrease error, change w in the direction of negative slope' and 'Scale the size of change by learning rate η'[cite: 808]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It defines hyperparameters as variables that 'determine the structure of the model and the learning process' [cite: 813] and 'allow us to regularize our model and shape over- and underfitting outcomes'[cite: 813]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that core advantages include 'Improved Accuracy' [cite: 823], 'Reduction of Overfitting' [cite: 823], and 'Handling High Dimensionality'[cite: 823]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It lists the core disadvantages as: 'Overfitting' [cite: 831], 'Instability' [cite: 831], and 'Optimization difficulty'[cite: 831]."
+  },
+  {
+    "score": 0.8,
+    "reasoning": "The context contains the correct formula but with a slight variation from the ground truth. It states 'Bal. Acc. = (Sensitivity + Specificity) / 2'[cite: 841]. The ground truth answer is identical. However, the generated answer incorrectly states 'Bal. Acc. = (Accuracy + Specificity) / 2'. The context itself is perfectly relevant and correct."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It does not define 'information gain'. It provides an example calculation for 'Gain' related to different attributes in a dataset [cite: 852] but offers no definition of the underlying concept."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It discusses general concepts like digital nudges [cite: 869] and General Purpose Technologies (GPTs) [cite: 877] but contains no information about the K-Nearest Neighbors (KNN) algorithm."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A diagram displays the three components of supervised ML as 'Representation + Evaluation + Optimization'[cite: 882]."
+  },
+  {
+    "score": 0.8,
+    "reasoning": "The context is highly relevant but presents a slightly different perspective than the generated answer implies. The context states that customers find the human-plus-machine combination 'viel besser und viel vertrauenswürdiger' (much better and much more trustworthy) [cite: 906], which leads them to follow the advice more often [cite: 905] and helps them overcome excessive risk aversion[cite: 907]. This indicates the combination is 'better' from a customer trust and adoption perspective, directly contradicting the 'Worse' from the generated answer."
+  },
+  {
+    "score": 0.3,
+    "reasoning": "The context is tangentially related but does not define 'Mixed Initiative' clearly. It gives the smartwatch example where the system proactively asks the user a question ('Soll ich das eigentlich aufzeichnen?')[cite: 943], but it doesn't use the term 'Mixed Initiative' to describe this specific interaction. It uses the term later in a more conceptual way related to a paper by Horvitz[cite: 948], but the connection to the smartwatch example is not explicit."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that the smartwatch could 'die Wahrscheinlichkeit einschätzen, dass Sie ein bestimmtes Goal haben' (estimate the probability that you have a certain goal) [cite: 953], based on evidence like the user's pulse[cite: 956]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is completely irrelevant. It contains a list of references and brief mentions of topics like 'learning fair representations' [cite: 986] and measuring discrimination[cite: 973], but it makes no mention of 'Algorithm Aversion'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A slide explicitly defines 'Algorithm aversion' as the 'Preference for human help/decisions over AI ones' and 'Algorithm appreciation' as the 'Preference for AI help/decisions over human ones'[cite: 991]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that for Windows 8, 'die Oberfläche war totale Katastrophe' (the user interface was a total disaster) [cite: 1015] and that 'viele der User waren total überfordert' (many of the users were completely overwhelmed)[cite: 1003]."
+  },
+  {
+    "score": 0.9,
+    "reasoning": "The context is highly relevant and almost provides the direct answer. It states that the experiment involved customers investing in P2P loans and mentions an example amount: 'ob ein Kunde 100 € beispielsweise... investieren möchte' (whether a customer would like to invest 100 €, for example...)[cite: 1025]. While phrased as an example, it is the only monetary figure mentioned for the investment, strongly suggesting it was the amount used in the experiment."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It does not mention Eric Horvitz or any paper from 1999. The text discusses human involvement in ML-supported decision-making in the context of impending regulations [cite: 1040] but does not attribute any specific ideas to Horvitz."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A slide presents two primary collaboration modes, one of which is 'Augmentation: AI serves as a decision support tool; human always makes final decision'[cite: 1061]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly provides the answer. A diagram illustrating the marginal contributions of a feature across different coalitions shows a final calculation: 'Mean: Δ=−0.1'[cite: 1064]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It defines interpretability as 'the ability to explain or provide the meaning in understandable terms to humans'[cite: 1077]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It mentions the European Commission establishing a high-level expert group on AI [cite: 1096] and discusses the GDPR[cite: 1106], but it does not contain any information about Article 86 of the EU AI Act or a 'Right to Explanation'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly defines the problem. It describes the 'selective labeling' problem as one where 'ML predictions endogenously shape the composition of additional data available for model updating' [cite: 1112], which can 'maintain or even exacerbate inaccurate or discriminatory predictions'[cite: 1111]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It describes a situation where they 'hatten aber eine Spalte im Datensatz, wo Gender noch drin war, haben die Maschine dann basierend auf allen Features außer Gender die Vorhersage machen lassen und konnten dann natürlich... vergleichen' (but had a column in the dataset where gender was still present, then let the machine make the prediction based on all features except gender and could then of course... compare)[cite: 1138]."
+  },
+  {
+    "score": 0.8,
+    "reasoning": "The context is highly relevant and provides a strong basis for the answer, but doesn't use the exact phrasing 'overly agreeable'. It states that AI systems are 'typically trained to replicate the outcomes achieved by human decision-makers'[cite: 1158], which often includes societal biases. It also notes that 'human bias es can impede' the model's ability to unlearn initial biases during continuous updating[cite: 1163]. This supports the idea that models replicate and are influenced by biased human patterns, which is a form of biased tendency."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that Google 'hat Google jetzt anscheinend durch Filter so gemacht, dass wenn man Krankenpfleger eingibt, dass sowohl Männer und Frauen gezeigt werden' (Google has now apparently done it with filters so that when you enter nurse, both men and women are shown)[cite: 1178]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states, 'The bias stemmed from training the AI system on predominantly male employees ’ CVs' [cite: 1193], which led the algorithm to perceive this as a model for success and thus discriminate against female applicants[cite: 1194]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It provides an image of the CRISP-DM process model, which is described as a way of 'Structuring an AI project'[cite: 1213]. The first step in the diagram is clearly labeled 'Business Understanding'[cite: 1213]."
+  },
+  {
+    "score": 0.9,
+    "reasoning": "The context is highly relevant and provides a strong foundation for the answer. It defines 'System solutions' as 'Comprehensive, integrated set of applications and technologies that work together to address complex, organization-wide problems' [cite: 1222] with an enterprise-level scope[cite: 1223]. It gives the example of Amazon's 'Ship then Shop' which involves '(Prediction + Inventory + Logistics + …)'[cite: 1223], clearly indicating a fundamental change to the business model."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It states that machines 'können nicht mit unstrukturierten Daten wie Wörtern einfach so umgehen' (cannot simply deal with unstructured data like words)[cite: 1240]. It does not mention anything about the valuation of consequences."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It introduces two types of metrics: 'Individual-level metrics' which 'ensure that people who have similar qualifications... receive similar outcomes' [cite: 1265], and 'Group-level metrics' which 'ensure that algorithmic outcomes do not disproportionately and negatively affect particular groups'[cite: 1265]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It describes the phases of the CRISP-DM data mining process model, such as 'Data Preparation'[cite: 1281]. It makes no mention of the time spent on any specific phase."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is entirely irrelevant. It discusses discrimination in algorithmic hiring and provides references to various studies [cite: 1287-1291], but it contains no information about the impact of Generative AI on employee happiness."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It contains licensing and publisher information for various articles but includes no mention of Amazon or any patents from 2014."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that unlike previous technologies, with AI 'For the first time: continuous learning of the technology itself with cross industry spillovers' occurs[cite: 1323]. It also notes that the use of the technology creates new data that can be fed back into the system to improve it[cite: 1343]."
+  },
+  {
+    "score": 0.9,
+    "reasoning": "The context is highly relevant. It states that Machine Learning (ML) is an indispensable tool for making data-based decisions, increasing efficiency, and driving innovation[cite: 1345]. It provides examples like 'Optimierung von Marketingkampagnen' (optimization of marketing campaigns) and 'Vorhersage von Markttrends' (prediction of market trends)[cite: 1346]. This strongly implies that its key economic function is to lower the cost of prediction, even if it doesn't use that exact phrasing."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It discusses the components of a machine learning model using the analogy of a map versus the landscape [cite: 1368] and the cyclical nature of the CRISP-DM data mining process[cite: 1358]. It does not contain any information about a 'J-curve'."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It discusses algorithmic feedback loops [cite: 1379, 1381] and the transformer architecture [cite: 1382] but contains no information about security vulnerabilities or attack vectors related to large language models."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that a problem with relying on a perfect model is that its output 'ist dieser Output der Maschine das Y immer eine Prediction, eine Vorhersage, die nicht notwendigerweise richtig sein muss' (this output of the machine, the Y, is always a prediction, a forecast that does not necessarily have to be right)[cite: 1397]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that 'die Kosten zumindest für die Inferenz... haben die sich bei einem Faktor 34 verringert' (the costs, at least for inference... have been reduced by a factor of 34)[cite: 1407]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question by explaining Ockham's Razor. It states one 'sollte ein Modell laut diesem Ockhams Razor bevorzugen, was weniger Informationen benötigt, um eine gute Vorhersage zu machen' (should prefer a model according to Ockham's Razor that requires less information to make a good prediction)[cite: 1417]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It provides general course information for 'MachineLearning für Management Entscheidungen (MLME)' [cite: 1441, 1442] but does not mention the 'Productivity J-Curve' paper or the company it discusses."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly provides the economic decision rule in a clear formula: '„Invest“ iff 𝑝⋅𝑈(15,15)+(1−𝑝)⋅𝑈(0,20)≥𝑈(10,0) „Not invest“ otherwise'[cite: 1443]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A slide titled 'Expect a J-Curve' describes the phenomenon as a 'two-phase productivity pattern' consisting of a 'Short-run dip' and a 'Long-run rebound'[cite: 1459]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. A slide with the date '24. April 2025' [cite: 1476] has a header 'General information' and describes the structure of the lecture and tutorial, clearly indicating it is the first session."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that a key focus is on practical exercises and that the 'Ziel ist es, ein solides Verständnis für ML-Tools zu entwickeln und deren Nutzen für Managemententscheidungen zu erkennen' (The goal is to develop a solid understanding of ML tools and to recognize their usefulness for management decisions)[cite: 1487]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It describes data captured in a field experiment to characterize customers, such as cart value and browsing history[cite: 1506], but it does not categorize customers into classes like 'Class 2'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It cites a Business Insider article with the title: '...against major companies like Amazon , McDonald’s, and Pinterest: These are some of the year ’s high -profile legal battles'[cite: 1504]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It provides a DOI and a URL to an article on aisel.aisnet.org[cite: 1520], not to the ssrn.com URL specified in the query."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It describes simulations built on data from two empirical studies [cite: 1545, 1547] but provides no details about 'batch learning methodology'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states, 'The implication for organizations is that they need to invest in comprehensive anti-discrimination and unconscious bias training for their decision makers'[cite: 1556]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states, 'We found that the greater the extent of human discrimination in a dynamic system where ML models are continuously updated, the less likely it is that self-correcting mechanisms will occur'[cite: 1569]. It also mentions that humans can teach machines to 'maintain or even adopt discriminatory behaviors over time'[cite: 1584]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that 'at the maximum label imbalance (x-axis), the share of positive predictions (y-axis) for women increases from 0% in Iterations 1 (left panel) to 22% in Iteration 100 (right panel) if there is no human discrimination'[cite: 1593]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It provides information about the false-negative error rate for female borrowers under certain conditions[cite: 1615], but it does not state the share of game outcomes that matched the perfect information benchmark in the first iteration."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. While it also mentions simulating investor decisions with a trained model [cite: 1621], it specifies that the underlying model type used for prediction was a 'gradient boosted forest'[cite: 1037]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It discusses algorithmic bias in the context of recruitment and forecasting [cite: 1640, 1641] but does not mention the specific examples listed in the ground truth answer (recidivism, predictive policing, etc.)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It defines 'Algorithmic discrimination' as system outputs that 'unjustifiably disadvantage members of particular social groups' [cite: 1662] and 'disproportionately benefit or disadvantage specific groups, even when no justification for the disparate treatment exists'[cite: 1663]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It mentions a 'Scrips Modell' [cite: 1684] for organizing projects, but does not name or describe the 'Nvivo 12.0 Plus' software."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context provides a direct answer. It states, 'Microsoft revised their dataset for training the Face API, resulting in a 20-fold reduction in the recognition error ratio between men and women with darker skin tones'[cite: 1698]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It says that after exhibiting gender bias, Amazon was 'compelled... to withdraw the tool and develop a new unbiased algorithm'[cite: 1727]."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The context is irrelevant. It discusses various theories of discrimination in the labor market, such as competitive market theory and statistical discrimination theory[cite: 1749, 1751], but it does not define or mention 'agent discrimination'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context provides a direct answer. It defines discrimination in the labor market based on the ILO’s Convention 111, which includes 'race, ethnicity, color, and gender' [cite: 1768], and also mentions a similar definition that includes 'ethnic origin, gender, skin color, and age'[cite: 1769]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states that 'The generic C R ISP-D M process m odel is useful for planning, com m unication w ithin and outside the project team , and docum entation'[cite: 1796]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context provides a direct answer. It states that AI-supported recruitment 'can reduce costs' [cite: 1809], 'saves time' [cite: 1810], and can reduce 'transactional workload'[cite: 1811]."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The context directly answers the question. It states the aim was 'to specify a process w hich can be reliably and efficiently repeated by different people and adapted to different situations'[cite: 1830]."
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, claiming the information is not in the text. The ground truth provides a specific, factual answer to the question. The two are semantically opposite."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is incorrect. It misidentifies the model's purpose (technology adoption vs. capturing participant behavior) and incorrectly claims that no comparison to other models is made. The ground truth states the opposite: the model performs *better* than existing cognitive models."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, stating the information is not present. The ground truth provides a direct and specific answer about the model's capabilities. The semantics are completely different."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal based on the retrieved context. The ground truth provides the specific name and scale of the dataset. The two are semantically opposite."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer provides the incorrect name for the model ('perceptron'). The ground truth is 'Centaur'. The answer is factually incorrect."
+  },
+  {
+    "score": 0.3,
+    "reasoning": "The generated answer ('nonobjective variables, such as inadequate information') is a different and less specific explanation than the ground truth ('optimizes for cost-effectiveness'). While both relate to causes of bias, they are not semantically the same concept."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is the semantic opposite of the ground truth. It claims women clicked *less* frequently, whereas the ground truth states women were *more* likely to click."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer is vague and tautological ('discrimination was caused by discrimination'), failing to capture the specific economic reason provided in the ground truth (that younger women are more expensive to advertise to)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both state that fewer women saw the ad compared to men."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer describes the intention of the *study* (to investigate discrimination), while the ground truth describes the intended *ad delivery strategy* (to be gender-neutral). These are different concepts, and the generation fails to answer the question correctly."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically consistent. Both identify the phenomenon as 'sociotechnological'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both state that the simulation setting mirrored sequential interactions, such as loan approval decisions."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer captures the essential information of the ground truth. Both state that continuous updating can mitigate discrimination and improve economic efficiency."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically consistent. Both explain that ML models shape future data by influencing decisions which then generate the data for subsequent model training."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both state that human decision-makers can impede self-correction and even cause unbiased models to become biased."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is incorrect. It suggests that opaque designs 'amplify future hiring inequalities', which is a consequence, not the core challenge itself. The ground truth correctly identifies the challenge as hindering the *detection and correction* of these biases."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical, both listing cost and time savings as benefits."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both list technical measures (like unbiased datasets and transparency) and management measures (like ethical governance and oversight)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is semantically inconsistent with the ground truth. The generation claims the User Guide provides better communication, while the ground truth correctly states the User Guide provides more detailed 'how-to' instructions compared to the Reference Model's 'what-to-do' description."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is incorrect. It claims the entire data preparation phase ('Selection, integration, transformation, and cleaning') is the most tedious part. The ground truth correctly identifies the specific sub-task of 'Clean data' as the lengthiest."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is semantically different from the ground truth. The generation claims the aim is to be 'reliably and efficiently repeated', which is a characteristic of the process, but not its ultimate goal. The ground truth states the aim is to make projects 'less costly, more reliable, more repeatable, more manageable, and faster', which are the desired outcomes."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both identify pervasiveness, improvement over time, and spawning complementary innovations as the three defining characteristics."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, stating the information is not in the provided text. The ground truth provides a specific numerical answer. The two are semantically opposite."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, claiming the information is not in the text. The ground truth provides the exact quote defining the paradox. The two are semantically opposite."
+  },
+  {
+    "score": 0.8,
+    "reasoning": "The generated answer is mostly correct but less comprehensive than the ground truth. It correctly identifies new inputs ('sensors', 'synthetic data') and organizational changes ('orgware', 'data pipelines'). However, it omits the key examples from the ground truth: 'business process redesign' and 'co-invention of new products and business models'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically consistent. Both describe the J-Curve as an initial dip in productivity due to unmeasured intangible investments, followed by a later rebound as those investments pay off."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is incorrect. It states the sample size was 73,235, which was the number of visitors who made a purchase, not the total sample size of the experiment, which is correctly stated in the ground truth as 117,304."
+  },
+  {
+    "score": 0.8,
+    "reasoning": "The generated answer is mostly correct but uses different terminology. It identifies 'returns arising from discrepancies between expectations and reality' and returns related to 'environmental impact', which correspond to the concepts of 'real returns' and 'opportunistic returns' (where environmental nudging might play a role), but it does not use the more standard terms from the ground truth."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is factually incorrect. It states the reduction was 5.19%, while the ground truth correctly states the reduction was 6.7%."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, stating the information is not in the text. The ground truth provides a direct, factual answer to the question. The two are semantically opposite."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both state they are for low-stake, fast-response tasks."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer gives a fabricated, non-technical explanation. The ground truth gives the correct technical explanation. The two are completely different."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both describe Word2Vec as a neural network that generates word embeddings from a text corpus."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both state that the weights (w) are changed in the direction of the negative slope, scaled by the learning rate (η)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically consistent. Both define hyperparameters as variables that determine model structure and the learning process, and mention their function in regularizing the model to control for overfitting and underfitting."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is incorrect. It claims the formula for Balanced Accuracy is (Accuracy + Specificity) / 2, while the ground truth correctly states it is (Sensitivity + Specificity) / 2."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect. The ground truth provides the correct definition."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect as the information is available. The ground truth provides the correct answer."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer claims the combination is 'much better', which is what the *customer perceives*. The ground truth correctly answers the question from an objective performance standpoint, which is that the combination is actually worse than the machine alone. The generation confuses subjective perception with objective performance."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both describe the concept as a middle ground where the system suggests an action but the human makes the final choice."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both state that the smartwatch can estimate the probability that the user wants to record their activity."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect. The ground truth provides the correct definition of Algorithm Aversion."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, stating the information is not in the text. The ground truth provides a direct, factual answer to the question. The two are semantically opposite."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect as the information is available. The ground truth provides the correct answer."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect as the information is available. The ground truth provides the correct answer."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.8,
+    "reasoning": "The generated answer describes one valid method for controlling for a variable (running the analysis with and without the gender feature). The ground truth describes a slightly different but also valid method. They are semantically similar approaches to the same problem."
+  },
+  {
+    "score": 0.3,
+    "reasoning": "The generated answer (models replicate biased human decisions) and the ground truth (models are optimized to be 'overly agreeable') describe different, though not mutually exclusive, mechanisms for how bias can manifest in LLMs. They are not semantically equivalent."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both state that Google applied filters to its image search to ensure both men and women are shown for the query 'nurse'."
+  },
+  {
+    "score": 0.2,
+    "reasoning": "The generated answer (trained on predominantly male CVs) and the ground truth (recognized correlations between hobbies/universities and gender) point to different sources of bias. While both relate to historical data, they describe different mechanisms, making them semantically inconsistent."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth provide definitions that are semantically consistent, both describing a highly integrated, organization-wide solution."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer (models cannot handle unstructured data) and the ground truth (models cannot provide a valuation of consequences) describe two completely different limitations of machine learning. They are semantically inconsistent."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, stating the information is not in the text. The ground truth provides a specific, factual answer to the question. The two are semantically opposite."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect as the information is available. The ground truth provides the correct answer."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect as the information is available. The ground truth provides the correct answer."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both state that AI can learn and improve itself through use and that this creates cross-industry spillover effects."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer is semantically consistent with the ground truth. The ground truth is more concise ('lowers the cost of... predictions'), while the generation is more descriptive ('improved prediction and decision-making'), but they capture the same core economic function."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect. The ground truth provides the correct definition of the J-curve."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect. The ground truth provides the correct answer."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect. The ground truth provides the correct answer."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both identify pervasiveness, improvement over time, and spawning complementary innovations as the three defining characteristics."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, stating the information is not in the text. The ground truth provides a direct, factual answer to the question. The two are semantically opposite."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer provides the wrong URL. The ground truth provides the correct URL. They are factually different."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, stating the information is not in the provided text. The ground truth provides a specific factual answer. The two are semantically opposite."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical. Both state that human discrimination impedes the self-correction ability of the models."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect. The ground truth provides the correct list of contexts."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically consistent. The generation provides a direct quote from the text which serves as a valid definition, capturing the same meaning as the ground truth."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect. The ground truth provides the correct name of the software."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generated answer is a refusal, which is incorrect. The ground truth provides the correct definition."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  },
+  {
+    "score": 0.9,
+    "reasoning": "The generated answer ('can be reliably and efficiently repeated') captures a key aspect of the ground truth ('less costly, more reliable, more repeatable, more manageable, and faster'). While the ground truth is more comprehensive, the core meaning is consistent."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer and the ground truth are semantically identical."
+  }
+]

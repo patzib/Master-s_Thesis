@@ -1,0 +1,442 @@
+[
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer is a faithful refusal to answer. The context, which is in German and discusses general machine learning models for technology adoption, does not contain any of the keywords from the question ('Centaur foundation model', 'Psych-101 dataset')."
+  },
+  {
+    "score": 0.8,
+    "reasoning": "The generation is mostly faithful, accurately reporting the 70% figure, the 'massive' significance, and the lack of comparison to other models, all of which are in the context. However, it makes one significant unfaithful claim by incorrectly attributing the model developed by 'Venkatesh and colleagues' to be the 'Centaur model'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer is entirely faithful. It correctly states that the context doesn't mention the 'Centaur foundation model' and accurately summarizes the actual content of the context, which is about a perceptron model and a simulated investment game."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer is completely faithful. It correctly identifies that the context lacks the requested information about the 'Centaur model' and accurately describes the actual topic of the provided text, which is the general importance of data cleaning."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is completely faithful. The context explicitly contains a slide with the text 'A mathematical model of a brain cell: perceptron'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context mentions 'nonobjective variables, such as inadequate information' as contributing to biased outcomes. While not a direct match to the ground truth ('cost-effectiveness'), it is a plausible and supported claim based on the provided text."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generation is not faithful. It makes a specific claim about women clicking on ads 34% less often than men, but the provided context is only a list of bibliographic references and contains no such data or statement."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The claim that the reason for fewer women seeing the ads was 'apparent gender-based discrimination' is directly supported by the title of the cited paper in the context: 'an empirical study of apparent gender-based discrimination in the display of stem career ads'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The claim that there was 'apparent gender-based discrimination' is directly supported by the title of the cited paper in the context: 'an empirical study of apparent gender-based discrimination in the display of stem career ads'. The claim that women were less likely to see the ads is a direct and accurate summary of this finding."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The claim that the study aimed to 'empirically study apparent gender-based discrimination in the display of STEM career ads' is directly verifiable from the title of the paper by Lambrecht & Tucker (2019) which is cited multiple times in the context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The key claims—that algorithmic discrimination is a 'dynamic and sociotechnological phenomenon' and that 'humans can inadvertently teach machines to maintain or even adopt discriminatory behaviors'—are both explicitly stated in the provided context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. All claims made in the generated answer—that the setting mirrored sequential interactions like loan approval and that it used data from an incentivized investment game with students and investors—are explicitly stated in the provided context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is completely faithful. Every claim made in the generated answer is explicitly stated in the context, including that continuous updating can mitigate discrimination but that human overrides can impede this self-correction."
+  },
+  {
+    "score": 0.5,
+    "reasoning": "The generation is only partially faithful. The second claim about 'Reinforcing discriminatory patterns' through human overrides is supported by the context. However, the first claim that models shape data by 'Generating new data based on their predictions' is not explicitly stated. The context says the *outcomes of algorithmic decisions* provide new data, which is a more nuanced concept that involves the human response to the prediction, not just the prediction itself."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. Every claim made is directly supported by the provided text. The context explicitly states that human biases can 'impede the self-correcting capacities of ML models' and that 'unbiased models learn biased behaviors from humans over time'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The claim that 'Predicting future hiring outcomes by observing historical data can amplify future hiring inequalities' is stated verbatim in the provided context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly lists studies that 'state that it can reduce costs' and others that 'suggest it saves time'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. Both claims are explicitly stated in the context: 'To mitigate this issue, it is recommended to implement technical measures, such as unbiased dataset frameworks and improved algorithmic transparency, as well as management measures like internal corporate ethical governance and external oversight.'"
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that 'algorithmic bias results in discriminatory hiring practices based on gender, race, color, and personality traits'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The two claims, that bias stems from 'Limited raw data sets' and 'Biased algorithm designers' (specifically citing engineers' personal biases in feature selection), are both explicitly mentioned and explained in the provided context."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generation is unfaithful. It claims the User Guide provides 'more advantageous communication', which is a misinterpretation. The context actually states that using the *process model itself* (not specifically the User Guide) for communication 'w as m uch m ore advantageous than w e originally anticipated'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context contains a slide that describes the 'Prepare data' phase as the 'Most tedious part of the work (approx. 60-80% of time)' and lists 'Selection, integration, transformation, cleaning of data' as its components. The generated answer accurately reflects this."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context states that the aim of the project was 'to specify a process w hich can be reliably and efficiently repeated by different people and adapted to different situations'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context contains a slide titled 'Structuring an AI project: CRISP-DM' which includes the text 'Cross Industry Standard Process for Data Mining'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context includes a diagram that clearly labels the six phases of the CRISP-DM model: Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment."
+  },
+  {
+    "score": 0.7,
+    "reasoning": "The generation is mostly faithful but contains one unsupported claim. The claims about being 'Applicable in Various Sectors' (Pervasive) and leading to 'complementary innovation' are supported by the text. However, the claim that GPTs are 'Driven by User Adoption' is an interpretation, not a direct statement from the text. The text says user interaction is 'central for how a technology can actually have an influence', which is different from being a defining characteristic of a GPT."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the provided context does not contain the answer to the question and accurately summarizes the actual content of the text (J-Curve, ROC analysis, machine learning overview)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the context doesn't contain information about Robert Solow's paradox and accurately describes the content that is present (a phenomenon of an initial productivity dip due to investment)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly lists 'New inputs: sensors, connected devices, synthetic data' and 'New “orgware”: data pipelines, ML-ops, AI-first processes' as complements. It also mentions needing to 'adaptieren' (adapt) organizations, directly supporting the claim about organizational redesign."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. Every claim made about the J-Curve—that it's a two-phase pattern, has an initial dip due to upfront investment in data/skills/redesign, and a later rebound—is explicitly stated in the provided context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states: 'the 2.6% return decrease would result in a reduction of 624,000 metric tons of CO2 emissions'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that 'the observed effect translates into an estimated annual reduction in processing costs of about $340,000'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states, 'Of the visitors across the three groups, 73,235 made a purchase.' The generated answer accurately reports this number."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It accurately identifies the two main types of returns discussed in the context: 'returns arising from discrepancies between expectations and reality' and returns related to environmental impact which is the focus of the 'green nudging' approach."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states, 'When compared against no nudging, the reduction is 5.19%.' The generated answer provides a different, incorrect figure (6.7%) which is not supported by the context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states, 'SHAP values indicate that the initial cart value is the variable most pivotal for the prediction'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that 'the academic team members initially aimed to isolate the effects of the cart prompt and the reminder prompt, seeking to pinpoint their causal effects'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states, 'For our industry partner, the observed effect translates into an estimated annual reduction in processing costs of about $340,000'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context includes an image with the text 'INFORMS is located in Maryland, USA'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that 'Mithilfe der Programmiersprache Python werden die Teilnehmer Schritt für Schritt an die Umsetzung von ML-Projekten herangeführt' (With the help of the programming language Python, participants will be guided step-by-step through the implementation of ML projects)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the text does not list four 'everyday life' applications and then accurately lists the four specific uses that *are* mentioned in the context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context contains a slide that says for a 'Basic chat model: Choose when task is rather low stake and fast response is required'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly lists 'Munich: 1,578,567' as part of a sample human thought process."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context includes a slide titled 'Evolution of OpenAI’s GPT models' which contains the line item 'GPT-2: 1.5B parameters'."
+  },
+  {
+    "score": 0.0,
+    "reasoning": "The generation is unfaithful as it fabricates an explanation. The context does not contain any information about 'attention heads'. The answer attempts to synthesize an explanation from unrelated concepts in the text like 'moderators' and 'human in the loop', but these are not technically related to the attention mechanism."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. Every claim made—that Word2Vec is a simple neural network, that it predicts words from context, that the learned weights are the embeddings, and that words in similar contexts have similar embeddings—is explicitly stated in the provided text."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context presents a table of 'Word' and 'Index token' and then asks 'What is a potential problem here?', immediately followed by the answer 'Lacking interpretability of distance'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly lists the two steps for gradient descent: 'change w in the direction of negative slope' and 'Scale the size of change by learning rate η'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. All claims made in the answer—that hyperparameters determine model structure and the learning process, that they are used to regularize and control for over/underfitting, and that they include things like the number of layers/neurons in a neural network—are directly stated in the provided context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly lists the core advantages as 'Improved Accuracy', 'Reduction of Overfitting', and 'Handling High Dimensionality'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly lists the core disadvantages of decision trees as 'Overfitting', 'Instability', and 'Optimization difficulty'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context provides the exact formula: 'Bal. Acc. = (Sensitivity + Specificity) / 2'. The second formula for F1 is also present."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context does not define 'information gain' but gives an example calculation. The generated answer correctly reports that the context does not provide a definition."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the provided text does not contain information about KNN and accurately summarizes the content that is present (digital nudges, GPT)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context includes a diagram with the three components clearly labeled: 'Representation + Evaluation + Optimization'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. All claims—that the human+machine option is perceived as 'much better and much more trustworthy', that it reduces risk aversion, and provides someone to blame—are explicitly stated in the provided context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly describes the smartwatch example provided in the context, where the system proposes an action ('Should I record a workout?') and the human's response determines the next step, as an illustration of the concept being discussed in the Sparkasse study."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states the system would 'die Wahrscheinlichkeit einschätzen, dass Sie ein bestimmtes Goal haben' (estimate the probability that you have a certain goal) based on evidence like pulse, and that it would not automatically start recording ('Not Action')."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the provided text does not contain information about 'Algorithm Aversion' and accurately summarizes the actual content of the text (mitigating bias, fair representations, etc.)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly defines 'Algorithm aversion: Preference for human help/decisions over AI ones' and 'Algorithm appreciation: Preference for AI help/decisions over human ones'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that the user interface for Windows 8 was a 'totale Katastrophe' (total disaster) and that users were 'total überfordert' (completely overwhelmed)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the text does not specify the exact investment amount, only mentioning that investors were considering an investment with a fixed interest rate."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the document does not mention Eric Horvitz or his 1999 paper."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly defines augmentation as a collaboration mode where 'AI serves as a decision support tool; human always makes final decision'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context shows a diagram with different delta values for coalitions of features, culminating in a calculation that reads 'Mean: Δ=−0.1'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly defines interpretability as 'the ability to explain or provide the meaning in understandable terms to humans'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly reports that the context does not detail the specific demands of EU AI Act Article 86, only mentioning that the European Commission has drafted proposals and established an expert group."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context defines the 'selective labeling' problem as something that 'can maintain or even exacerbate inaccurate or discriminatory predictions' when 'ML predictions endogenously shape the composition of additional data'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context describes the Amazon example where gender was excluded as a feature for prediction, but the gender column was kept in the dataset to compare performance, which matches the generated answer."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The claims that models replicate patterns of bias by being trained to 'replicate the outcomes achieved by human decision-makers' and that 'human bias es can impede' the process of continuous updating are both explicitly stated in the provided text."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that 'Das hat Google jetzt anscheinend durch Filter so gemacht, dass wenn man Krankenpfleger eingibt, dass sowohl Männer und Frauen gezeigt werden' (Google has now apparently used filters so that when you enter 'nurse', both men and women are shown)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that Amazon's system discriminated against women because it 'recognized correlations between hobbies, universities attended, and gender due to historical data showing fewer women attending certain universities and pursuing technical fields'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context introduces the CRISP-DM model as a standard for structuring AI projects and a diagram clearly shows that the first step is 'Business Understanding'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context defines a 'System solution' as a 'Comprehensive, integrated set of applications and technologies that work together to address complex, organization-wide problems' at an 'enterprise-level', which aligns with the generated answer."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that 'Maschinen... können nicht mit unstrukturierten Daten wie Wörtern einfach so umgehen' (Machines... cannot simply deal with unstructured data like words) and require 'Datenvorarbeit' (data preprocessing)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context clearly distinguishes between 'Individual-level metrics' (ensuring similar outcomes for similar qualifications) and 'Group-level metrics' (ensuring outcomes do not disproportionately affect groups)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the text does not provide a percentage for time spent on data preparation, and accurately quotes the information that is available."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the document does not contain information about the impact of Generative AI on employee happiness and accurately describes the actual focus of the text on algorithmic discrimination."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the provided document contains no information about an Amazon patent from 2014."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The claims that AI is a technology that can improve itself through use ('continuous learning of the technology itself') and that this learning creates 'cross industry spillovers' are both stated explicitly in the context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context states that ML offers various approaches to make management decisions 'fundierter und effizienter' (more well-founded and efficient) through tasks like 'Vorhersage von Markttrends' (prediction of market trends), directly supporting the claim that its primary function is improved prediction and decision-making."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly reports that the provided context does not contain any information about a 'J-curve'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the text does not provide information on this topic and accurately lists the topics that are covered."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that a machine learning prediction 'ist nicht notwendigerweise richtig' (is not necessarily right)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that inference costs 'haben die sich bei einem Faktor 34 verringert' (have been reduced by a factor of 34)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context states that according to Ockham's Razor, one should prefer a model 'was weniger Informationen benötigt, um eine gute Vorhersage zu machen' (that needs less information to make a good prediction)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly reports that the context does not contain the requested information and accurately describes the actual content of the provided text."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. All components of the economic decision rule presented in the generated answer are explicitly present in the formula provided in the context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly describes the J-Curve as a 'two-phase productivity pattern' that includes a 'Short-run dip' and a 'Long-run rebound'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context contains a slide dated '24. April 2025' which outlines the course structure, clearly indicating this is the first lecture."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context states that a goal of the practical exercises is to 'entwickeln und deren Nutzen für Managemententscheidungen zu erkennen' (develop and recognize their usefulness for management decisions)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly reports that the document does not define or mention a 'Class 2 customer'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context contains a citation to a Business Insider article that lists 'Amazon, McDonald’s, and Pinterest' as companies facing legal battles."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly identifies that the URL provided in the context (aisel.aisnet.org) is different from the one in the query (ssrn.com)."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly states that the provided text does not contain specific observations about 'batch learning methodology' and accurately describes the content that is present."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that 'The implication for organizations is that they need to invest in comprehensive anti-discrimination and unconscious bias training for their decision makers'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. Both claims are explicitly supported by the text. The context states that 'the greater the extent of human discrimination... the less likely it is that self-correcting mechanisms will occur' and that humans can 'inadvertently teaching the machines to maintain or even adopt discriminatory behaviors'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that 'the share of positive predictions... for women increases from 0% in Iterations 1... to 22% in Iteration 100... if there is no human discrimination'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly reports that the context does not contain the specific information requested."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context states that a 'trained model' was used to predict investments, and another part of the text specifies that 'The employed model is a gradient boosted forest'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly reports that the context mentions algorithmic bias in recruitment and forecasting but does not include the other specific examples from the ground truth."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The quoted definition and the subsequent summary are both directly supported by the explicit definition of 'Algorithmic discrimination' provided in the context."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It accurately reports that the document mentions a 'Scrips Modell' but does not provide specific details about its functionality, and it does not mention 'Nvivo 12.0 Plus'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that 'Microsoft revised their dataset for training the Face API, resulting in a 20-fold reduction in the recognition error ratio between men and women with darker skin tones'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that Amazon was 'compelled... to withdraw the tool and develop a new unbiased algorithm'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. It correctly reports that the document does not define 'agent discrimination' and accurately lists the discrimination theories that are discussed."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. All listed characteristics and theories are explicitly mentioned in the provided text."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that the 'generic C R ISP-D M process m odel is useful for planning, com m unication w ithin and outside the project team , and docum entation'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context explicitly states that AI-based recruitment can 'reduce costs', 'save time', and reduce 'transactional workload'."
+  },
+  {
+    "score": 1.0,
+    "reasoning": "The generation is faithful. The context states the aim was 'to specify a process w hich can be reliably and efficiently repeated by different people and adapted to different situations'."
+  }
+]
