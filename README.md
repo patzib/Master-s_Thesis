@@ -116,12 +116,12 @@ The next step would be to run the q_a_generator.ipynb notebook, prompt an LLM of
 
 Alternatively, this csv file is already created and saved in the evaluation_data folder.
 
-Then, run the rag_eval.ipynb script for generating the answers of the chatbot to the questions present in the ground truth dataset. 
+Then, run the rag_eval.ipynb script for generating the answers of the chatbot to the questions present in the ground truth dataset. There already is one example of this dataset in the evaluation_data folder.
 
 After that, take an LLM of your choice, give it the created csv from the step before (rag_evaluation_generated_answers.csv) and use the prompts which you find in the Appendix of the Thesis to evaluate the Chatbot on the metrics of Faithfulness, Context Relevance and Correctness.
-There are three test json files for this in the evaluation_data folder which were created with the following settings of the chatbot: Temperature = 0.1 and Language = Only English.
+There are already three example json files for this in the evaluation_data folder which were created with the following settings of the chatbot: Temperature = 0.5 and Language = Only English.
 
-The answers can then be copied into three distinct json files (faithfulness.json, correctness.json, relevance.json). Using the script convert_json_to_csv.ipynb then converts all three json files into one single csv file, containing all the information of the evaluation of this one model version (consolidated_evaluation_results_custom_dataset_{model_version}.csv).
+The answers can then be copied into three distinct json files (faithfulness_{model_version}.json, correctness_{model_version}.json, relevance_{model_version}.json). Using the script convert_json_to_csv.ipynb then converts all three json files into one single csv file, containing all the information of the evaluation of this one model version (consolidated_evaluation_results_custom_dataset_{model_version}.csv). 
 
 
 ### 7.2 Evaluating the RAG chatbot on established benchmarks
@@ -130,5 +130,5 @@ In this step, the chatbot is evaluated against its base model to see how well th
 
 First, run the rag_eval_benchmark_tests.ipynb notebook to create the two csv's which contain the answers of the chatbot and its base model on the TriviaQA and TruthfulQA datasets. 
 
-These csv's are then attached to an LLM of your choice and evaluated using the prompts which can be found in the Thesis. The LLM then outputs its evaluations in two distinct csv files. These csv files can then be manually be put together to have all relevant evaluation data in one single csv.
+These csv's are then attached to an LLM of your choice and evaluated using the prompts which can be found in the Thesis. The output of the LLM can then be saved in two distinct csv files. 
 
