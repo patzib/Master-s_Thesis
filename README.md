@@ -68,6 +68,8 @@ Installation Steps
     pip install -r requirements.txt
 
     Delete the placeholder in the data/raw_documents and place all your source documents (only PDF and TXT files) into that folder.
+For the lecture filter function to work correctly, the documents that are from a specific lecture need to be renamed accordingly.
+For example: lecture_01.pdf or lecture_03_transcript.txt
 
 
     
