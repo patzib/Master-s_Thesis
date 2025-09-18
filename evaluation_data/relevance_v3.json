@@ -1,0 +1,442 @@
+[
+{
+"score": 0.0,
+"reasoning": "The context does not contain any information about the Centaur foundation model or the Psych-101 dataset. It discusses a completely unrelated model by Venkatesh and colleagues regarding technology acceptance."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, on, study."
+},
+{
+"score": 0.0,
+"reasoning": "The context does not contain any information about the Centaur foundation model or the Psych-101 dataset. It discusses a completely unrelated model by Venkatesh and colleagues regarding technology acceptance."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: of."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: for, the, that."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: was, and, the."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, what, of."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: discrimination, for, was."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: discrimination, as, loops."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: simulations, ml, was."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: continuous, ml, the."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: shape, training, how."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: human, the, of."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: some, of, to."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: bias, of, mitigate."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: practices, for, as."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: recruitment, discrimination, bias."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: crisp-dm."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, data, in."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: crisp-dm, of, process."
+},
+{
+"score": 0.0,
+"reasoning": "The context appears to be completely irrelevant to the question as there are no overlapping keywords."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: phases, process, the."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: general."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: productivity, the, of."
+},
+{
+"score": 0.0,
+"reasoning": "The context appears to be completely irrelevant to the question as there are no overlapping keywords."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: of, general, purpose."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: the."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: co2, based, return."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: costs, for, the."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: randomized, was, field."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, of, returns."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: no, the, returns."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: for, as, variable."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: was, team, academic."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: costs, for, as."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: informs."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: chat."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, of, is."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: parameters."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: word2vec."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: words, as, with."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: error, the, gradient."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: and, according, the."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, advantages, of."
+},
+{
+"score": 0.0,
+"reasoning": "The context appears to be completely irrelevant to the question as there are no overlapping keywords."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: for, the, balanced."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, to, information."
+},
+{
+"score": 0.0,
+"reasoning": "The context appears to be completely irrelevant to the question as there are no overlapping keywords."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: the."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, of, smartwatch."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: the."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: the."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: p2p, for, was."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: the."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, of, prediction."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: the."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: art, the, eu."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: a."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: for, the, gender."
+},
+{
+"score": 0.0,
+"reasoning": "The context appears to be completely irrelevant to the question as there are no overlapping keywords."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: search, the, of."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: recruitment, was, the."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: its, and, the."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: of."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: learning."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: what, of, bias."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: crisp-dm, data, preparation."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: impact, the, of."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: ai."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: learning."
+},
+{
+"score": 0.0,
+"reasoning": "The context appears to be completely irrelevant to the question as there are no overlapping keywords."
+},
+{
+"score": 0.0,
+"reasoning": "The context appears to be completely irrelevant to the question as there are no overlapping keywords."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: learning."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: language, large, gpt."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: ockhams."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: in."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: decision, for, the."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: a."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: the."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: of."
+},
+{
+"score": 0.0,
+"reasoning": "The context appears to be completely irrelevant to the question as there are no overlapping keywords."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: discrimination, companies, as."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, for, is."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: loops, the, machine."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: for, ml, the."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: discrimination, human, ml."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: no, female, label."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: for, female, loops."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: whether, was, loops."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: in, discrimination, algorithmic."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: algorithmic."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: an."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: training, microsoft, dataset."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: did, with, amazon."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, is, to."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: the, discrimination, to."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: process."
+},
+{
+"score": 0.8,
+"reasoning": "The context seems relevant as it shares common keywords with the question: recruitment, the, to."
+},
+{
+"score": 0.4,
+"reasoning": "The context might have some relevance as it shares a common keyword with the question: process."
+}
+]

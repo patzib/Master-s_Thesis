@@ -1,0 +1,442 @@
+[
+  {
+    "score": 1.0,
+    "reasoning": "The generated answer faithfully states that the context does not contain the requested information. The context is about a different model by Venkatesh, which supports the generated answer's claim."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.7,
+    "reasoning": "The generated answer is mostly faithful, but may contain some information not explicitly mentioned in the context."
+  },
+  {
+    "score": 0.7,
+    "reasoning": "The generated answer is mostly faithful, but may contain some information not explicitly mentioned in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.7,
+    "reasoning": "The generated answer is mostly faithful, but may contain some information not explicitly mentioned in the context."
+  },
+  {
+    "score": 0.7,
+    "reasoning": "The generated answer is mostly faithful, but may contain some information not explicitly mentioned in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.7,
+    "reasoning": "The generated answer is mostly faithful, but may contain some information not explicitly mentioned in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.7,
+    "reasoning": "The generated answer is mostly faithful, but may contain some information not explicitly mentioned in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.7,
+    "reasoning": "The generated answer is mostly faithful, but may contain some information not explicitly mentioned in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.7,
+    "reasoning": "The generated answer is mostly faithful, but may contain some information not explicitly mentioned in the context."
+  },
+  {
+    "score": 0.7,
+    "reasoning": "The generated answer is mostly faithful, but may contain some information not explicitly mentioned in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  },
+  {
+    "score": 0.1,
+    "reasoning": "The generated answer has very little overlap with the retrieved context and likely contains unverified information."
+  },
+  {
+    "score": 0.4,
+    "reasoning": "The generated answer has some overlap with the context, but also contains significant information not present in the context."
+  }
+]
