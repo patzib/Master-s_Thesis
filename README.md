@@ -21,7 +21,8 @@ The system is composed of several modular Python scripts that handle distinct st
     app.py: The main application file that runs the Streamlit web interface. It initializes the RAG system on startup, manages the session state (chat history), and handles the user interaction loop.
 
 The data flows as follows:
-Raw Documents -> pre-processing.py -> JSON Chunks -> rag_setup.py -> Chroma Vector DB -> app.py -> User Interface
+
+    Raw Documents -> pre-processing.py -> JSON Chunks -> rag_setup.py -> Chroma Vector DB -> app.py -> User Interface
 
 ## 3. Features
 
@@ -40,6 +41,7 @@ Raw Documents -> pre-processing.py -> JSON Chunks -> rag_setup.py -> Chroma Vect
 ## 4. Setup and Installation
 
 Follow these steps to set up and run the project locally.
+
 Prerequisites
 
     Python 3.9+
@@ -61,7 +63,7 @@ Installation Steps
     Create a Virtual Environment (Recommended):
     python -m venv venv # If that does not work: py -3 -m venv venv
     
-    Activate Virtual Environment;
+    Activate Virtual Environment:
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate.bat`
 
     Install Dependencies:
@@ -72,7 +74,6 @@ For the lecture filter function to work correctly, the documents that are from a
 For example: lecture_01.pdf or lecture_03_transcript.txt
 
 
-    
 
 ## 5. Usage
 
@@ -81,7 +82,7 @@ Once the setup is complete, navigate to the "code" folder and run the Streamlit 
     cd code
     streamlit run app.py
 
-The application will open in your web browser. The first time you run it, the system will perform the initial pre-processing and database indexing, which may take a few minutes depending on the number of documents. Subsequent startups will be faster as the indexed data is persisted.
+The application will open in your web browser. The first time you run it, the system will perform the initial pre-processing and database indexing, which may take a few minutes depending on the number of documents in the raw_documents folder. Subsequent startups will be faster as the indexed data is persisted.
 
 ## 6. Configuration
 
@@ -89,9 +90,9 @@ All key parameters of the system can be modified in the config.py file. This all
 
     Paths: RAW_DOC_FOLDER, PROCESSED_DOC_FOLDER, PERSIST_DIRECTORY
 
-    Models: MODEL_NAME, EMBEDDING_MODEL, RERANKER_MODEL
+    Models: MODEL_NAME, EMBEDDING_MODEL, RERANKER_MODEL, etc.
 
-    RAG Parameters: CHUNK_SIZE, OVERLAP_SIZE, INITIAL_RETRIEVAL_K, TOP_N_RERANKED
+    RAG Parameters: CHUNK_SIZE, OVERLAP_SIZE, INITIAL_RETRIEVAL_K, TOP_N_RERANKED, METADATA_GENERATION_CHAR_LIMIT, OLLAMA_TEMPERTAURE, SYSTEM_PROMPT
 
 By tuning these parameters, you can analyze their effect on the performance and accuracy of the RAG system.
 
@@ -104,7 +105,7 @@ To start the evaluations, install the necessary packages:
 
     pip install -r requirements_eval.txt
 
-When the installations have finished, the notebooks for evaluating the RAG system can be run with jupyter notebook. For starting jupyter notebook, type:
+When the installations have finished, the notebooks for evaluating the RAG system can be run with jupyter notebook. For starting jupyter notebook, enter:
 
     jupyter notebook
 
@@ -118,12 +119,13 @@ The next step would be to run the q_a_generator.ipynb notebook, prompt an LLM of
 
 Alternatively, this csv file is already created and saved in the evaluation_data folder.
 
-Then, run the rag_eval.ipynb script for generating the answers of the chatbot to the questions present in the ground truth dataset. There already is one example of this dataset in the evaluation_data folder.
+Then, run the rag_eval.ipynb script for generating the answers of the chatbot to the questions present in the ground truth dataset. There already is one example of this dataset in the evaluation_data folder for model V4.
 
-After that, take an LLM of your choice, give it the created csv from the step before (rag_evaluation_generated_answers.csv) and use the prompts which you find in the Appendix of the Thesis to evaluate the Chatbot on the metrics of Faithfulness, Context Relevance and Correctness.
-There are already three example json files for this in the evaluation_data folder which were created with the following settings of the chatbot: Temperature = 0.1 and Language = Only English (V4).
+After that, take an LLM of your choice, give it the created csv from the step before (rag_evaluation_generated_answers_{model_version}.csv) and use the prompts which you find in the Appendix of the Thesis to evaluate the Chatbot on the metrics of Faithfulness, Context Relevance and Correctness.
 
 The answers can then be copied into three distinct json files (faithfulness_{model_version}.json, correctness_{model_version}.json, relevance_{model_version}.json). Using the script convert_json_to_csv.ipynb then converts all three json files into one single csv file, containing all the information of the evaluation of this one model version (consolidated_evaluation_results_custom_dataset_{model_version}.csv). 
+
+There are already three example json files for this in the evaluation_data folder which were created with the following settings of the chatbot: Temperature = 0.1 and Language = English Only (V4).
 
 
 ### 7.2 Evaluating the RAG chatbot on established benchmarks
