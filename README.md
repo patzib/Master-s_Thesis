@@ -20,7 +20,7 @@ The system is composed of several modular Python scripts that handle distinct st
 
     app.py: The main application file that runs the Streamlit web interface. It initializes the RAG system on startup, manages the session state (chat history), and handles the user interaction loop.
 
-The data flows as follows:
+The data pipeline follows this logical flow:
 
     Raw Documents -> pre-processing.py -> JSON Chunks -> rag_setup.py -> Chroma Vector DB -> app.py -> User Interface
 
@@ -69,13 +69,12 @@ Installation Steps
     Install Dependencies:
     pip install -r requirements.txt
 
-    Delete the placeholder in the data/raw_documents and place all your source documents (only PDF and TXT files) into that folder.
-For the lecture filter function to work correctly, the documents that are from a specific lecture need to be renamed accordingly.
-For example: lecture_01.pdf or lecture_03_transcript.txt
+Data Preparation
 
+Delete the placeholder in the data/raw_documents and place all your source documents (only PDF and TXT files) into that folder.
+Note on File Naming: For the metadata filter to function correctly, files must be named to reflect their corresponding lecture number (e.g., lecture_01.pdf, lecture_03_transcript.txt).    
 
-
-## 5. Usage
+## 5. Execution
 
 Once the setup is complete, navigate to the "code" folder and run the Streamlit application:
 
@@ -99,7 +98,7 @@ By tuning these parameters, you can analyze their effect on the performance and 
 
 ## 7. Running the Evaluations
 
-Before running the evaluations, it is recommended to run and initialize the chatbot once before starting directly with the evaluations (streamlit run app.py). That way, the pre-processing of the files has already been done.
+It is advisable to run the main application (streamlit run app.py) at least once prior to initiating evaluations to ensure all data pre-processing is complete.
 
 To start the evaluations, install the necessary packages:
 
@@ -109,30 +108,22 @@ When the installations have finished, the notebooks for evaluating the RAG syste
 
     jupyter notebook
 
-If you would like to configue the chatbot with certain settings, then you need to go first to the config.py file in the core folder. There parameters like the temperature or the System Prompt can be adjusted.
+If you would like to evaluate the chatbot with certain settings, then you need to go first to the config.py file in the core folder. There parameters like the temperature or the System Prompt can be adjusted.
 
-Then, navigate to the code/evaluation folder.
+Within the jupyter notebook interface, navigate to the code/evaluation folder.
 
-### 7.1 Evaluating the RAG chatbot on synthetically created and manually curated Question-Answer Pairs.
+### 7.1 Evaluation on Custom Dataset
 
-The next step would be to run the q_a_generator.ipynb notebook, prompt an LLM of your choice for question-answer pairs for the relevant academic papers and then manually bringing them together, forming the ground_truth_dataset.csv, with which the model is then later tested.
+This procedure assesses the system's performance on a synthetically generated question-answer dataset derived from the source documents.
 
-Alternatively, this csv file is already created and saved in the evaluation_data folder.
+1. Generate Q&A Pairs (Optional): Execute the q_a_generator.ipynb notebook to generate question-answer pairs from the document corpus. These should be manually curated to create a ground_truth_dataset.csv. An example is provided in the evaluation_data directory. The csv file also has five LLM-generated (from Gemini 2.5 Pro) question-answer pairs for each academical papper that was in the source documents. This is optional but increases the quality of the data.
+2. Generate Model Responses: Run rag_eval.ipynb to have the system generate answers to the questions in the ground truth dataset. This will produce a file named rag_evaluation_generated_answers_{model_version}.csv. Again, there is an example file already saved in the evaluation_data folder.
+3. Evaluate via LLM-as-a-Judge: Employ a powerful LLM (e.g., ChatGPT or Gemini) and the prompts specified in the thesis appendix to evaluate the generated answers on the metrics of Faithfulness, Context Relevance, and Correctness. In the evaluation_data folder, examplaray json files are deposited, with which the next evaluation step can be made.
+4. Consolidate Results: The output from the LLM judge, typically saved as three JSON files, can be merged into a single CSV file for analysis using the convert_json_to_csv.ipynb script.
 
-Then, run the rag_eval.ipynb script for generating the answers of the chatbot to the questions present in the ground truth dataset. There already is one example of this dataset in the evaluation_data folder for model V4.
+### 7.2 Evaluation on Standard Benchmarks
 
-After that, take an LLM of your choice, give it the created csv from the step before (rag_evaluation_generated_answers_{model_version}.csv) and use the prompts which you find in the Appendix of the Thesis to evaluate the Chatbot on the metrics of Faithfulness, Context Relevance and Correctness.
+This procedure benchmarks the RAG system against its base model using the TruthfulQA and TriviaQA datasets.
 
-The answers can then be copied into three distinct json files (faithfulness_{model_version}.json, correctness_{model_version}.json, relevance_{model_version}.json). Using the script convert_json_to_csv.ipynb then converts all three json files into one single csv file, containing all the information of the evaluation of this one model version (consolidated_evaluation_results_custom_dataset_{model_version}.csv). 
-
-There are already three example json files for this in the evaluation_data folder which were created with the following settings of the chatbot: Temperature = 0.1 and Language = English Only (V4).
-
-
-### 7.2 Evaluating the RAG chatbot on established benchmarks
-
-In this step, the chatbot is evaluated against its base model to see how well they perform on established benchmarks, namely TruthfulQA and TriviaQA.
-
-First, run the rag_eval_benchmark_tests.ipynb notebook to create the two csv's which contain the answers of the chatbot and its base model on the TriviaQA and TruthfulQA datasets. 
-
-These csv's are then attached to an LLM of your choice and evaluated using the prompts which can be found in the Thesis. The output of the LLM can then be saved in two distinct csv files. 
-
+1. Generate Benchmark Responses: Run the rag_eval_benchmark_tests.ipynb notebook to generate two CSV files containing answers from both the RAG system and its base LLM for the benchmark questions.
+2. Evaluate via LLM-as-a-Judge: Utilize an external LLM and the evaluation prompts from the thesis to score the outputs from both models. The results can be saved into new CSV files for analysis.
