@@ -99,6 +99,7 @@ By tuning these parameters, you can analyze their effect on the performance and 
 ## 7. Running the Evaluations
 
 It is advisable to run the main application (streamlit run app.py) at least once prior to initiating evaluations to ensure all data pre-processing is complete.
+The project includes sample files to demonstrate each step. However, it is crucial to note that the rag_eval script generates new output files with each run. Therefore, after running this script, the original sample .json files in the evaluation_data folder will be outdated. Then, newly generated JSON files must be used for the convert_json_to_csv script to ensure data consistency.
 
 To start the evaluations, install the necessary packages:
 
