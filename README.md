@@ -116,14 +116,14 @@ Within the jupyter notebook interface, navigate to the code/evaluation folder.
 
 This procedure assesses the system's performance on a synthetically generated question-answer dataset derived from the source documents. For every step, exemplary files are saved in the corresponding folders.
 
-    1. Generate Q&A Pairs: Execute the q_a_generator.ipynb notebook to generate question-answer pairs from the document corpus. These should be manually curated to create a ground_truth_dataset.csv. An example of this file (with which the answers were generated in the thesis) is provided in the evaluation_data directory. The csv file also has five LLM-generated (from Gemini 2.5 Pro) question-answer pairs for each academical papper that was in the source documents. This is optional but increases the quality of the data.
-    2. Generate Model Responses: Run rag_eval.ipynb to have the system generate answers to the questions in the ground truth dataset. This will produce a file named rag_evaluation_generated_answers_{model_version}.csv. Again, there is an example file already saved in the evaluation_data folder.
-    3. Evaluate via LLM-as-a-Judge: Employ a powerful LLM (e.g., ChatGPT or Gemini) and the prompts specified in the thesis appendix to evaluate the generated answers on the metrics of Faithfulness, Context Relevance, and Correctness. In the evaluation_data folder, exemplary json files are deposited, with which the next evaluation step can be made.
-    4. Consolidate Results: The output from the LLM judge, typically saved as three JSON files, can be merged into a single CSV file for analysis using the convert_json_to_csv.ipynb script.
+1. Generate Q&A Pairs: Execute the q_a_generator.ipynb notebook to generate question-answer pairs from the document corpus. These should be manually curated to create a ground_truth_dataset.csv. An example of this file (with which the answers were generated in the thesis) is provided in the evaluation_data directory. The csv file also has five LLM-generated (from Gemini 2.5 Pro) question-answer pairs for each academical papper that was in the source documents. This is optional but increases the quality of the data.
+2. Generate Model Responses: Run rag_eval.ipynb to have the system generate answers to the questions in the ground truth dataset. This will produce a file named rag_evaluation_generated_answers_{model_version}.csv. Again, there is an example file already saved in the evaluation_data folder.
+3. Evaluate via LLM-as-a-Judge: Employ a powerful LLM (e.g., ChatGPT or Gemini) and the prompts specified in the thesis appendix to evaluate the generated answers on the metrics of Faithfulness, Context Relevance, and Correctness. In the evaluation_data folder, exemplary json files are deposited, with which the next evaluation step can be made.
+4. Consolidate Results: The output from the LLM judge, typically saved as three JSON files, can be merged into a single CSV file for analysis using the convert_json_to_csv.ipynb script.
 
 ### 7.2 Evaluation on Standard Benchmarks
 
 This procedure benchmarks the RAG system against its base model using the TruthfulQA and TriviaQA datasets.
 
-    1. Generate Benchmark Responses: Run the rag_eval_benchmark_tests.ipynb notebook to generate two CSV files containing answers from both the RAG system and its base LLM for the benchmark questions.
-    2. Evaluate via LLM-as-a-Judge: Utilize an external LLM and the evaluation prompts from the thesis to score the outputs from both models. The results can be saved into new CSV files for analysis.
+1. Generate Benchmark Responses: Run the rag_eval_benchmark_tests.ipynb notebook to generate two CSV files containing answers from both the RAG system and its base LLM for the benchmark questions.
+2. Evaluate via LLM-as-a-Judge: Utilize an external LLM and the evaluation prompts from the thesis to score the outputs from both models. The results can be saved into new CSV files for analysis.
