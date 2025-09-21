@@ -25,7 +25,7 @@ def get_lecture_filter_from_query(question: str) -> int:
     Uses an LLM to dynamically analyze a user's query for specific filter criteria.
 
     This function implements a key feature of the dynamic RAG pipeline: query-driven
-    retrieval filtering. It sends the user's question to a LLM with a prompt engineered 
+    retrieval filtering. It sends the user's question to an LLM with a prompt engineered 
     to extract a lecture number. This allows the system to narrow down the search space 
     in the vector store before retrieval, leading to more relevant results.
 
@@ -66,3 +66,4 @@ def get_lecture_filter_from_query(question: str) -> int:
 
     # Default to 0 if no lecture number is found or if an error occurs.
     return 0
+
