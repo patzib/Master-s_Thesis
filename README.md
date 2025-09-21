@@ -79,6 +79,7 @@ Note on File Naming: For the metadata filter to function correctly, files must b
 Once the setup is complete, navigate to the "code" folder and run the Streamlit application:
 
     cd code
+    
     streamlit run app.py
 
 The application will open in your web browser. The first time you run it, the system will perform the initial pre-processing and database indexing, which may take a few minutes depending on the number of documents in the raw_documents folder. Subsequent startups will be faster as the indexed data is persisted.
