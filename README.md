@@ -127,5 +127,5 @@ This procedure assesses the system's performance on a synthetically generated qu
 
 This procedure benchmarks the RAG system against its base model using the TruthfulQA and TriviaQA datasets.
 
-1. Generate Benchmark Responses: Run the rag_eval_benchmark_tests.ipynb notebook to generate two CSV files containing answers from both the RAG system and its base LLM for the benchmark questions.
+1. Generate Benchmark Responses: Run the rag_eval_benchmark.ipynb notebook to generate two CSV files containing answers from both the RAG system and its base LLM for the benchmark questions.
 2. Evaluate via LLM-as-a-Judge: Utilize an external LLM and the evaluation prompts from the thesis to score the outputs from both models. The results can be saved into new CSV files for analysis.
