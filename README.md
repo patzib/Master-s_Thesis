@@ -129,3 +129,18 @@ This procedure benchmarks the RAG system against its base model using the Truthf
 
 1. Generate Benchmark Responses: Run the rag_eval_benchmark.ipynb notebook to generate two CSV files containing answers from both the RAG system and its base LLM for the benchmark questions.
 2. Evaluate via LLM-as-a-Judge: Utilize an external LLM and the evaluation prompts from the thesis to score the outputs from both models. The results can be saved into new CSV files for analysis.
+
+
+## 8. Known Errors
+
+When running the application, a few warnings and errors may appear in the console. These are expected with the current dependency setup and do not affect the chatbot’s functionality. 
+
+A common message is a LangChainDeprecationWarning related to ConversationBufferWindowMemory. This class is deprecated in recent LangChain versions but continues to work as before. Migration to the new RunnableWithHistory API would remove the warning, but the older memory implementation was kept in this project for simplicity.
+
+Also, on some systems PyTorch combined with Streamlit’s file watcher may raise a runtime error similar to "Tried to instantiate class '__path__._path', but it does not exist!". This happens because Streamlit’s default file watcher inspects PyTorch internals. To avoid this message, the app should be started with the file watcher disabled, for example:
+    
+    streamlit run app.py --server.fileWatcherType=none
+
+The PyTorch error raised when running Streamlit is not critical because it comes from Streamlit’s file watcher scanning PyTorch internals. It does not affect the model itself, embeddings, retrieval, or response generation — only Streamlit’s automatic hot-reload feature during development.
+
+
