@@ -1,20 +1,28 @@
-# Core LangChain Libraries (updated versions)
+# --- LangChain ---
 langchain==0.3.27
-langchain-community==0.3.27
 langchain-core==0.3.74
+langchain-community==0.3.27
 langsmith==0.4.16
-
-# New LangChain Integration Libraries
 langchain-huggingface==0.3.1
 langchain-chroma==0.2.5
-langchain-huggingface==0.3.1
 langchain-ollama==0.3.3
 
-# Other Dependencies
+# --- Ollama client ---
 ollama==0.4.8
+
+# --- Streamlit UI ---
 streamlit==1.45.1
+# Streamlit requires packaging <25
+packaging>=20,<25
+
+# --- Embeddings and models ---
 sentence-transformers==2.7.0
+torch>=2.5.0  # fixes torch._classes bug with Streamlit
+
+# --- Vector DB ---
 chromadb==1.0.10
+# Chromadb 1.0.10 still expects old Posthog API
+posthog<3.0
+
+# --- PDF handling ---
 pypdf==5.5.0
-
-
